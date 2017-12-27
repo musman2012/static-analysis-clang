@@ -1,0 +1,6 @@
+[
+  { "directory": "/home/user/llvm/build",
+    "command": "/usr/bin/clang++ -Irelative -DSOMEDEF=\"With spaces, quotes and \\-es.\" -cpp -o code code.cpp",
+    "file": "code.cpp" 
+  }
+]
