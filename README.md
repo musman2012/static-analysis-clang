@@ -3,8 +3,8 @@ This repository is build to implement a static analysis using Clang (https://cla
 
 Follow these steps to test Attribute checker code:
 
-- % git clone http://llvm.org/git/llvm.git
-- % cd llvm/llvm
+- % git clone https://github.com/musman2012/static-analysis-clang.git
+- % cd static-analysis-clang/llvm
 - % mkdir build && cd build/
 - % cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo ..
 - % make check-clang-tools
